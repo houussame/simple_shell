@@ -18,7 +18,7 @@ int main(void)
 		numRead = getline(&ln, &sz, stdin);
 		if (numRead >= 0)
 		{
-		   
+
 			args[0] = ln;
 			execve(ln, args, NULL);
 			free(ln);   /*because you used getline*/
@@ -26,7 +26,7 @@ int main(void)
 		}
 		else
 		{
-			free(ln); 
+			free(ln);
 			break;
 		}
 	}
