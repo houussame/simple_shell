@@ -37,7 +37,7 @@ int main(void)
 		}
 		else
 		{
-			free(ln); 
+			free(ln);
 			break;
 		}
 	}
