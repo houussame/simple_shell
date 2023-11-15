@@ -31,7 +31,7 @@ int main(void)
 			else if (pd > 0)
 				wait(&st);
 			else if (pd < 0)
-				perror;
+				return (0);
 			free(ln);   /*because you used getline*/
 			ln = NULL; /*always give line a NULL when you use free*/
 		}
